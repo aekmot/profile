@@ -1,3 +1,45 @@
+#sidebar {
+  background-color: #BFB1B1;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  width: 90px;
+  text-align: center;
+}
+
+#sidebar ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+#sidebar li {
+  margin-top:50px;
+  margin-bottom: 50px;
+}
+
+#sidebar a {
+  text-decoration: none;
+  font-size: 25px;
+  color:#700000;
+}
+
+#sidebar a:hover {
+  color: red;
+}
+
+/* Responsive layout behavior */
+
+@media (max-width: 768px) {
+  #content{
+    margin-left: 0px;
+  }
+  #sidebar {
+    display: none;
+  }
+}
+
+
 .container {
   padding: 25px;
   width: 500px;   /* This sets the width */
@@ -40,7 +82,7 @@
 
 
 .card{
-  background-color: #C1666B;
+  background-color: #BFB1B1;
   padding: 20px;
   margin-bottom: 20px;
   border-radius: 4px;
