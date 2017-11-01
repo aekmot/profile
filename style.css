@@ -1,0 +1,214 @@
+.container {
+  padding: 25px;
+  width: 500px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+.list-inline {
+  padding-left: 0;
+}
+.list-inline li {
+  display: inline-block;
+  padding: 20px;
+}
+.list-inline li i{
+  font-size: 25px;
+}
+
+#logo {
+  border-radius: 50%;
+  border: 3px solid #700000;
+}
+
+#logo:hover {
+  border-radius: 50%;
+  border: 3px solid #C61414;
+}
+
+.btn-red{
+  background-color: #DD5555;
+  color: white;
+  font-weight: 500;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.btn-red:hover{
+  background-color: #C61414;
+  color: white;
+}
+
+
+.card{
+  background-color: #BFB1B1;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+body {
+    opacity: 0.9;
+}
+
+h1 {
+    color: #A80D1A;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+
+h2 {
+    color: #700000;
+    font-size: 19px;
+    font-family: 'Lora', serif;
+    font-weight: 400;
+}
+
+a {
+  color: #474448;
+  font-family: 'PT Serif', serif;
+  font-weight: 300; /* if you want the light version */
+  text-decoration: none
+}
+
+a:hover {
+  color: red;
+}
+
+h3 {
+  color: #A80D1A;
+  font-size: 17px;
+  font-family: 'Lora', serif;
+  font-weight: 300; /* if you want the light version */
+}
+
+h4 {
+  color: #700000;
+  font-size: 15px;
+  font-family: 'Noto Serif', serif;
+  font-weight: 300; /* if you want the light version */
+}
+
+
+p {
+  color: #474448;
+  font-family: 'Lora', sans-serif;
+  font-weight: 300; /* if you want the light version */
+  font-size: 14px;
+}
+
+html {
+  height: 100%;
+  min-height: 500px;
+  background-color: hsl(50,20,40);
+
+  background-image:
+    radial-gradient(
+      circle,
+      transparent 40%,
+      #999 40%,
+      #999 41%,
+      transparent 0
+      ),
+    radial-gradient(
+      circle,
+      transparent 40%,
+      #999 40%,
+      #999 41%,
+      transparent 0
+      ),
+    radial-gradient(
+      circle,
+      transparent 40%,
+      #999 40%,
+      #999 41%,
+      transparent 0
+      ),
+    radial-gradient(
+      circle,
+      transparent 40%,
+      #999 40%,
+      #999 41%,
+      transparent 0
+      ),
+    radial-gradient(
+      circle,
+      transparent 40%,
+      #999 40%,
+      #999 41%,
+      transparent 0
+      ),
+    radial-gradient(
+      circle,
+      transparent 40%,
+      #999 40%,
+      #999 41%,
+      transparent 0
+      ),
+    radial-gradient(
+      circle,
+      transparent 40%,
+      #999 40%,
+      #999 41%,
+      transparent 0
+      );
+
+  background-position:
+    50% 50%;
+  background-size:
+    200% 200%,
+    150% 150%,
+    100% 100%,
+    60% 60%,
+    40% 40%,
+    20% 20%,
+    5% 5%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+  animation: 1s impact linear infinite;
+  }
+
+@keyframes impact {
+  0% {
+    background-size:
+      200% 200%,
+      150% 150%,
+      100% 100%,
+      60% 60%,
+      40% 40%,
+      20% 20%,
+      5% 5%;
+    }
+  100% {
+    background-size:
+      250% 250%,
+      200% 200%,
+      150% 150%,
+      100% 100%,
+      60% 60%,
+      40% 40%,
+      20% 20%;
+    }
+  }
